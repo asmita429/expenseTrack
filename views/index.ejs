@@ -25,7 +25,8 @@
         <p class="card-text"><%= expense.description %></p>
         <p class="card-text"><%= expense.amount %></p>
         <a href="/edit/<%= expense.id %>" class="btn btn-success">Update</a>
-        <a href="/delete/<%= i %>" class="btn btn-danger">Delete</a>
+        <a href="/delete/<%= expense.id %>" class="btn btn-danger">Delete</a>
+        
       </div>
     </div>
 <% }) %>
